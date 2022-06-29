@@ -1,13 +1,18 @@
 <script lang="ts">
-import { defineComponent } from "vue-demi";
+import { ref,defineComponent } from "vue";
 
 export default defineComponent({
-    name: 'LifeCyclePage'
+    name: 'LifeCyclePage',
+
+    setup() {
+        // const lifecycleImg = ref()
+    }
 })
 </script>
 
 <template>
     <div class="page-container">
-        2222
+        <h1>生命周期图</h1>
+        <!-- <img :src="lifecycleImg" alt=""> -->
     </div>
 </template>
