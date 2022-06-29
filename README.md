@@ -1,4 +1,4 @@
-# Vue 3 + TypeScript + Vite
+# Vue 3 + TypeScript + Vite + Vue-Router4.0 + element-plus
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
@@ -14,3 +14,10 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
 
 You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+
+
+## 项目搭建以及集成
+
+搭建详细参考[href](https://juejin.cn/post/6951649464637636622)
+
+<!-- 环境配置参考[href]() -->
