@@ -5,9 +5,18 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve:dev": "vite --mode development",
+    "serve:beta": "vite --mode beta",
+    "serve:stage": "vite --mode stage",
+    "serve:prod": "vite --mode production",
+    "build:dev": "vue-tsc --noEmit && vite build --mode development",
+    "build:beta": "vue-tsc --noEmit && vite build --mode beta",
+    "build:stage": "vue-tsc --noEmit && vite build --mode stage",
+    "build:prod": "vue-tsc --noEmit && vite build --mode production"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "element-plus": "^2.2.6",
     "vue": "^3.2.25",
     "vue-router": "4"

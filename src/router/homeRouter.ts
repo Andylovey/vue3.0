@@ -1,9 +1,9 @@
 import {
     RouteRecordRaw
 } from 'vue-router'
-import Home from '../../views/Home'
-import ResponsePage from '../../views/Home/ApiPage/ResponsePage'
-import LifeCyclePage from '../../views/Home/ApiPage/LifeCyclePage'
+import Home from '@/views/Home'
+import ResponsePage from '@/views/Home/ApiPage/ResponsePage'
+import LifeCyclePage from '@/views/Home/ApiPage/LifeCyclePage'
 
 const HomeRoutes: Array<RouteRecordRaw> = [
     {

@@ -5,7 +5,7 @@ import {
 } from 'vue-router'
 
 
-import HomeRoutes from './modules/home'
+import HomeRoutes from './homeRouter'
 
 
 const routes: Array<RouteRecordRaw> = [

@@ -5,7 +5,10 @@ import { defineComponent } from "vue";
 
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 export default defineComponent({
-  name: "app"
+  name: "app",
+  setup() {
+    console.log('env',import.meta.env)
+  }
 })
 </script>
 

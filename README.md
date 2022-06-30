@@ -1,4 +1,4 @@
-# Vue 3 + TypeScript + Vite + Vue-Router4.0 + element-plus
+# Vue 3 + TypeScript + Vite + Vue-Router4.0 + element-plus + axios
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
@@ -18,6 +18,27 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 
 ## 项目搭建以及集成
 
-搭建详细参考[href](https://juejin.cn/post/6951649464637636622)
+搭建详细参考[项目搭建](https://juejin.cn/post/6951649464637636622)
 
 <!-- 环境配置参考[href]() -->
+
+## vite配置根路径@
+
+1. 在vite.config.ts添加
+resolve: {
+  alias: {
+'@': resolve(__dirname, 'src') // 设置 `@` 指向 `src` 目录
+  }
+}
+
+2. 在tsconfig.json添加
+"baseUrl": "./",
+"paths": {
+  "@/*": ["./src/*"]
+}
+
+## vite多环境配置
+详细步骤参考[环境配置](https://www.pudn.com/news/62bbbb46f3cc394cf1db6e34.html)
+
+
+## 打包完之后使用http-server运行

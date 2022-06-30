@@ -10,7 +10,8 @@
                             </el-icon>常见API
                         </template>
                         <el-menu-item-group>
-                            <el-menu-item v-for="(menu) in menusList" :key="menu.index" @click="handleRouteMenu(menu)" :index="menu.index">
+                            <el-menu-item v-for="(menu) in menusList" :key="menu.index" @click="handleRouteMenu(menu)"
+                                :index="menu.index">
                                 {{ menu.name }}
                             </el-menu-item>
                         </el-menu-item-group>
@@ -19,7 +20,7 @@
             </el-scrollbar>
         </el-aside>
 
-        <el-container style="display:block">
+        <el-container style="display: block;height: 100%;overflow: auto;">
             <router-view></router-view>
         </el-container>
 
