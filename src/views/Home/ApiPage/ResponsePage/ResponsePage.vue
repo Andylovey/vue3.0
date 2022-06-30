@@ -9,6 +9,14 @@ interface Person {
 
 import { defineComponent, reactive, ref, toRef, toRefs } from "vue";
 
+// 类可以实现接口，使用关键字 implements，并将Person接口作为类的属性使用
+class PersonInfo implements Person {
+    name = 'JentXu'
+    age = 25
+    skill = '篮球'
+    hobby = '篮球'
+}
+
 
 
 
