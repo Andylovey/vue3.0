@@ -7,7 +7,7 @@
                         <template #title>
                             <el-icon>
                                 <Document />
-                            </el-icon>常见API
+                            </el-icon>常见API使用
                         </template>
                         <el-menu-item-group>
                             <el-menu-item v-for="(menu) in menusList" :key="menu.index" @click="handleRouteMenu(menu)"
